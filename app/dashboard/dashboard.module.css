@@ -1,0 +1,99 @@
+.page {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background: var(--color-background);
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: var(--space-lg) var(--space-4xl);
+  border-bottom: var(--border-thin);
+  background: var(--color-surface);
+}
+
+.logo {
+  font-size: var(--font-title-medium-font-size);
+  font-weight: var(--font-title-medium-font-weight);
+  color: var(--color-on-surface);
+  margin: 0;
+}
+
+.main {
+  flex: 1;
+  max-width: 720px;
+  width: 100%;
+  margin: 0 auto;
+  padding: var(--space-5xl) var(--space-4xl);
+}
+
+.title {
+  font-size: var(--font-headline-small-font-size);
+  font-weight: var(--font-headline-small-font-weight);
+  color: var(--color-on-background);
+  margin: 0 0 var(--space-lg);
+}
+
+.card {
+  background: var(--color-surface);
+  border: var(--border-thin);
+  border-radius: var(--radius-xl);
+  padding: var(--space-2xl);
+  margin-bottom: var(--space-lg);
+}
+
+.cardTitle {
+  font-size: var(--font-title-medium-font-size);
+  font-weight: var(--font-title-medium-font-weight);
+  color: var(--color-on-surface);
+  margin: 0 0 var(--space-md);
+}
+
+.cardText {
+  font-size: var(--font-body-medium-font-size);
+  line-height: var(--font-body-medium-line-height);
+  color: var(--color-on-surface-variant);
+  margin: 0;
+}
+
+.field {
+  display: flex;
+  justify-content: space-between;
+  padding: var(--space-md) 0;
+  border-bottom: var(--border-thin);
+}
+
+.field:last-child {
+  border-bottom: none;
+}
+
+.fieldLabel {
+  font-size: var(--font-body-small-font-size);
+  color: var(--color-on-surface-variant);
+}
+
+.fieldValue {
+  font-size: var(--font-body-medium-font-size);
+  color: var(--color-on-surface);
+  font-weight: 500;
+}
+
+.badge {
+  display: inline-block;
+  padding: var(--space-xs) var(--space-sm);
+  border-radius: var(--radius-sm);
+  font-size: var(--font-label-small-font-size);
+  font-weight: 500;
+}
+
+.badgeVerified {
+  background: var(--color-tertiary-container);
+  color: var(--color-on-tertiary-container);
+}
+
+.badgeUnverified {
+  background: var(--color-error-container);
+  color: var(--color-on-error-container);
+}

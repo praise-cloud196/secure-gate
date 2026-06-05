@@ -1,0 +1,17 @@
+.footer {
+  text-align: center;
+  margin-top: var(--space-2xl);
+  font-size: var(--font-body-small-font-size);
+  line-height: var(--font-body-small-line-height);
+  color: var(--color-on-surface-variant);
+}
+
+.link {
+  color: var(--color-primary);
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.link:hover {
+  text-decoration: underline;
+}

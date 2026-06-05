@@ -1,0 +1,18 @@
+.message {
+  padding: var(--space-md) var(--space-lg);
+  border-radius: var(--radius-md);
+  font-size: var(--font-body-small-font-size);
+  line-height: var(--font-body-small-line-height);
+  margin-bottom: var(--space-lg);
+  text-align: center;
+}
+
+.success {
+  background: var(--color-tertiary-container);
+  color: var(--color-on-tertiary-container);
+}
+
+.error {
+  background: var(--color-error-container);
+  color: var(--color-on-error-container);
+}
